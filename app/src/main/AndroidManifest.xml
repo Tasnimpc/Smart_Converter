@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/converter"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/converter"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SmartConverter">
+
+        <!-- SplashScreen (first screen user sees) -->
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Home screen -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+
+        <!-- Unit Converter Activities -->
+        <activity
+            android:name=".TemperatureActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".LengthActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".VolumeActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".WeightActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".SpeedActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".TimeActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".AreaActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".StorageActivity"
+            android:exported="false" />
+
+        <activity android:name=".InfoActivity" />
+        <activity android:name=".SettingsActivity"/>
+    </application>
+
+</manifest>

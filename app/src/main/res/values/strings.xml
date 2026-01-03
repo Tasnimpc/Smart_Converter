@@ -1,0 +1,119 @@
+<resources>
+    <string name="app_name">Smart Converter</string>
+     <string name="splash_text">Smart Converter</string>
+    <string name="temperature">Temperature</string>
+    <string name="convert">Convert</string>
+    <string name="input_hint">Enter value</string>
+    <string name="result_text">Result:</string>
+    <string name="length">Length</string>
+    <string name="volume">Volume</string>
+    <string name="weight">Weight</string>
+    <string name="area">Area</string>
+    <string name="speed">Speed</string>
+    <string name="time">Time</string>
+    <string name="digital_storage">Digital Storage</string>
+    <string name="search_icon">search</string>
+    <string name="favourites">favourites</string>
+    <string name="settings">settings</string>
+    <string name="info_help">info_help</string>
+    <string name="menu">Menu</string>
+    <string name="info_title">Smart Converter</string>
+
+    <string name="info_subtitle">
+Your all-in-one solution for fast, accurate, and offline unit conversions.
+</string>
+
+    <string name="info_usage_title">How to Use the App</string>
+
+    <string name="info_usage_body">
+• Tap on any conversion card to open its converter screen.\n\n
+• Categories include Temperature, Length, Volume, Weight, Speed, Time, Area, and Storage.\n\n
+• Long-press on a card to add or remove it from favourites.\n\n
+• Use the search bar from the side menu to quickly find a converter.\n\n
+• The favourites option shows only your saved converters.\n\n
+• Press back or clear search to restore all cards.\n\n
+Smart Converter is designed with simplicity, speed, and accuracy in mind, making it suitable for students, professionals, and everyday users.
+</string>
+
+
+
+    <string-array name="temp_units">
+        <item>Celsius</item>
+        <item>Fahrenheit</item>
+        <item>Kelvin</item>
+    </string-array>
+
+    <string-array name="length_units">
+        <item>Millimeter</item>
+        <item>Centimeter</item>
+        <item>Meter</item>
+        <item>Kilometer</item>
+        <item>Inch</item>
+        <item>Foot</item>
+        <item>Yard</item>
+        <item>Mile</item>
+    </string-array>
+
+    <string-array name="volume_units">
+        <item>Milliliter</item>
+        <item>Liter</item>
+        <item>Cubic meter</item>
+        <item>Teaspoon</item>
+        <item>Tablespoon</item>
+        <item>Cup</item>
+        <item>Pint</item>
+        <item>Gallon</item>
+    </string-array>
+
+    <string-array name="weight_units">
+        <item>Milligram</item>
+        <item>Gram</item>
+        <item>Kilogram</item>
+        <item>Tonne</item>
+        <item>Ounce</item>
+        <item>Pound</item>
+    </string-array>
+
+    <!-- Speed -->
+    <string-array name="speed_units">
+        <item>m/s</item>
+        <item>km/h</item>
+        <item>mph</item>
+        <item>ft/s</item>
+        <item>knots</item>
+    </string-array>
+
+    <!-- Time -->
+    <string-array name="time_units">
+        <item>Second</item>
+        <item>Minute</item>
+        <item>Hour</item>
+        <item>Day</item>
+        <item>Week</item>
+        <item>Month (30d)</item>
+        <item>Year (365d)</item>
+    </string-array>
+
+    <!-- Area -->
+    <string-array name="area_units">
+        <item>Square millimeter</item>
+        <item>Square centimeter</item>
+        <item>Square meter</item>
+        <item>Square kilometer</item>
+        <item>Hectare</item>
+        <item>Acre</item>
+        <item>Square mile</item>
+    </string-array>
+
+    <!-- Digital storage (bytes) -->
+    <string-array name="storage_units">
+        <item>Bit</item>
+        <item>Byte</item>
+        <item>Kilobyte (KB)</item>
+        <item>Megabyte (MB)</item>
+        <item>Gigabyte (GB)</item>
+        <item>Terabyte (TB)</item>
+        <item>Petabyte (PB)</item>
+    </string-array>
+</resources>
+

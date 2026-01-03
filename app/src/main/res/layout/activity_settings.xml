@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Settings"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp"/>
+
+    <Switch
+        android:id="@+id/switch_theme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dark Theme"/>
+
+    <TextView
+        android:id="@+id/tv_font"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Font Size"
+        android:layout_marginTop="24dp"/>
+
+    <SeekBar
+        android:id="@+id/seek_font"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="24"/>
+
+    <TextView
+        android:id="@+id/tv_sig"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Significant Figures"
+        android:layout_marginTop="24dp"/>
+
+    <SeekBar
+        android:id="@+id/seek_sig"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="10"/>
+
+</LinearLayout>

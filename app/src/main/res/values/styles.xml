@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- FONT SIZES (apply via SettingsManager) -->
+    <style name="FontSmall">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="FontMedium">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="FontLarge">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <!-- Rounded ImageView style -->
+    <style name="RoundedImageView" parent="Widget.MaterialComponents.ShapeableImageView">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item> <!-- 50% makes it a perfect circle -->
+    </style>
+
+</resources>
