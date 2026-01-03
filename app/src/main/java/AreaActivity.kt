@@ -118,12 +118,12 @@ class AreaActivity : BaseActivity() {
         return valueInSqMeters / areaFactorMap[to]!!
     }
 
-    /** Format BigDecimal using user's significant figures from SettingsManager */
     private fun format(value: BigDecimal): String {
-        val sig = SettingsManager.getSigFigures(this)
+        val decimals = SettingsManager.getSigFigures(this) // treat as decimal places
         return value
-            .round(MathContext(sig, RoundingMode.HALF_UP))
+            .setScale(decimals, RoundingMode.HALF_UP)   // fixed decimal places
             .stripTrailingZeros()
             .toPlainString()
     }
+
 }

@@ -100,12 +100,13 @@ class StorageActivity : BaseActivity() {
         return valueInBytes.divide(toFactor, 12, RoundingMode.HALF_UP)
     }
 
-    private fun format(value: BigDecimal): String {
-        val sig = SettingsManager.getSigFigures(this)
 
+    private fun format(value: BigDecimal): String {
+        val decimals = SettingsManager.getSigFigures(this) // treat as decimal places
         return value
-            .round(MathContext(sig, RoundingMode.HALF_UP))
+            .setScale(decimals, RoundingMode.HALF_UP)   // fixed decimal places
             .stripTrailingZeros()
             .toPlainString()
     }
+
 }
